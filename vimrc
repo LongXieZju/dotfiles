@@ -9,12 +9,19 @@ set history=1000 " How many lines of history to remember
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Vim-plug
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Remove declared plugins
+function! s:UnPlug(plug_name)
+  if has_key(g:plugs, a:plug_name)
+    call remove(g:plugs, a:plug_name)
+  endif
+endfunction
+command!  -nargs=1 UnPlug call s:UnPlug(<args>)
+
 " Plugins will be downloaded under the specified directory.
 call plug#begin('~/.vim/plugged')
 
 " Declare the list of plugins.
-Plug 'tpope/vim-sensible'
-Plug 'junegunn/seoul256.vim'
+Plug 'scrooloose/nerdcommenter'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
