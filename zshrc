@@ -94,4 +94,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # export http_proxy=http://127.0.0.1:1087
 # export https_proxy=http://127.0.0.1:1087
-export PATH="/anaconda2/bin:$PATH"
+export PATH="/anaconda3/bin:$PATH"
