@@ -25,6 +25,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdcommenter'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+" Plug 'lervag/vimtex'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
@@ -42,5 +43,5 @@ let g:NERDDefaultAlign = 'left'
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim-airline
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" let g:airline#extensions#tabline#enabled = 1
-" let g:airline#extensions#tabline#formatter = 'vimtex'
+let g:airline#extensions#tabline#formatter = 'default'
+let g:airline_solarized_bg='simple'
