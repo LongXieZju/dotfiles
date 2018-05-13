@@ -42,5 +42,5 @@ let g:NERDDefaultAlign = 'left'
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim-airline
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#formatter = 'vimtex'
+" let g:airline#extensions#tabline#enabled = 1
+" let g:airline#extensions#tabline#formatter = 'vimtex'
