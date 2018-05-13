@@ -1,6 +1,7 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " General
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let leader = " "
 set number
 syntax on
 set enc=utf-8
@@ -25,3 +26,11 @@ Plug 'scrooloose/nerdcommenter'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" NERD Commenter
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"let g:NERDSpaceDelims = 1
+"let g:NERDTrimTrailingWhitespace = 1
+"let g:NERDDefaultAlign = 'left'
