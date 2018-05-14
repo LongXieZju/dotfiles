@@ -6,6 +6,7 @@ set number
 syntax on
 set enc=utf-8
 set history=1000 " How many lines of history to remember
+set relativenumber
 
 " When editing a file, always jump to the last known cursor position.
 " Don't do it for commit messages, when the position is invalid, or when
