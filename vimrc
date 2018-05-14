@@ -64,3 +64,5 @@ let g:pymode_python = 'python'
 let g:pymode_trim_whitespaces = 1
 let g:pymode_options_max_line_length = 79
 let g:pymode_virtualenv_path = '/anaconda2'
+let g:pymode_run_bind = '<leader>r'
+let g:pymode_run = 1
