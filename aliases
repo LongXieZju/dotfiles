@@ -2,6 +2,9 @@
 alias ll="ls -al"
 alias ln="ln -v"
 alias mkdir="mkdir -p"
+alias clear="clear;ls"
+function mycd(){builtin cd "$@" && ls}
+alias cd=mycd
 
 # Git
 alias gs="git status"
