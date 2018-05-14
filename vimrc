@@ -34,6 +34,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdcommenter'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'python-mode/python-mode', { 'branch': 'develop' }
 " Plug 'lervag/vimtex'
 
 " List ends here. Plugins become visible to Vim after this call.
@@ -54,3 +55,12 @@ let g:NERDDefaultAlign = 'left'
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:airline#extensions#tabline#formatter = 'default'
 let g:airline_solarized_bg='simple'
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" python-mode
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:pymode = 1
+let g:pymode_python = 'python'
+let g:pymode_trim_whitespaces = 1
+let g:pymode_options_max_line_length = 79
+let g:pymode_virtualenv_path = '/anaconda2'
