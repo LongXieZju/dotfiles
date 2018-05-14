@@ -15,6 +15,11 @@ autocmd BufReadPost *
   \   exe "normal g`\"" |
   \ endif
 
+nmap <M-j> mz:m+<cr>`z
+nmap <M-k> mz:m-2<cr>`z
+vmap <M-j> :m'>+<cr>`<my`>mzgv`yo`z
+vmap <M-k> :m'<-2<cr>`>my`<mzgv`yo`z
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Vim-plug
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
