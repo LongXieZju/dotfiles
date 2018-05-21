@@ -96,5 +96,11 @@ source $ZSH/oh-my-zsh.sh
 # export https_proxy=http://127.0.0.1:1087
 export PATH="/anaconda2/bin:$PATH"
 
+#GOPATH
+export GOPATH=$HOME/Documents/go_workspace
+
+#GOPATH bin
+export PATH=$PATH:$GOPATH/bin
+
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
