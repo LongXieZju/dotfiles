@@ -34,7 +34,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdcommenter'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'python-mode/python-mode'
+" Plug 'python-mode/python-mode'
 " Plug 'lervag/vimtex'
 
 " List ends here. Plugins become visible to Vim after this call.
@@ -58,17 +58,16 @@ let g:airline_solarized_bg='simple'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " python-mode
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:pymode = 1
-let g:pymode_python = 'python'
-let g:pymode_trim_whitespaces = 1
-let g:pymode_options_max_line_length = 79
-let g:pymode_virtualenv_path = '/anaconda2'
-let g:pymode_run_bind = '<leader>r'
-let g:pymode_run = 1
-let g:pymode_folding = 0
-let g:pymode_indent = 1
-let g:pymode_lint_on_write = 0
-let g:pymode_lint_on_fly = 0
-let g:pymode_lint_checkers = ['pyflakes', 'pep8']
-let g:pymode_syntax_indent_errors = g:pymode_syntax_all
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" let g:pymode = 1
+" let g:pymode_python = 'python'
+" let g:pymode_trim_whitespaces = 1
+" let g:pymode_options_max_line_length = 79
+" let g:pymode_virtualenv_path = '/anaconda2'
+" let g:pymode_run_bind = '<leader>r'
+" let g:pymode_run = 1
+" let g:pymode_folding = 0
+" let g:pymode_indent = 1
+" let g:pymode_lint_on_write = 0
+" let g:pymode_lint_on_fly = 0
+" let g:pymode_lint_checkers = ['pyflakes', 'pep8']

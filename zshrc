@@ -96,5 +96,10 @@ source $ZSH/oh-my-zsh.sh
 # export https_proxy=http://127.0.0.1:1087
 export PATH="/anaconda2/bin:$PATH"
 
+# Proxy the network of shell
+export http_proxy=http://127.0.0.1:1087
+export https_proxy=http://127.0.0.1:1087
+
+
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
