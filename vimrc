@@ -58,7 +58,7 @@ let g:airline_solarized_bg='simple'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " python-mode
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " let g:pymode = 1
 " let g:pymode_python = 'python'
 " let g:pymode_trim_whitespaces = 1
@@ -71,3 +71,4 @@ let g:airline_solarized_bg='simple'
 " let g:pymode_lint_on_write = 0
 " let g:pymode_lint_on_fly = 0
 " let g:pymode_lint_checkers = ['pyflakes', 'pep8']
+" let g:pymode_syntax_indent_errors = g:pymode_syntax_all

@@ -100,6 +100,11 @@ export PATH="/anaconda2/bin:$PATH"
 export http_proxy=http://127.0.0.1:1087
 export https_proxy=http://127.0.0.1:1087
 
+#GOPATH
+export GOPATH=$HOME/Documents/go_workspace
+
+#GOPATH bin
+export PATH=$PATH:$GOPATH/bin
 
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
