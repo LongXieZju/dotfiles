@@ -97,12 +97,12 @@ source $ZSH/oh-my-zsh.sh
 export PATH="/anaconda2/bin:$PATH"
 
 # Proxy the network of shell
-export http_proxy=http://127.0.0.1:1087
-export https_proxy=http://127.0.0.1:1087
+# export http_proxy=http://127.0.0.1:1087
+# export https_proxy=http://127.0.0.1:1087
 
 #GOPATH
 export GOPATH=$HOME/Documents/go_workspace
-
+export GOBIN=$GOPATH/bin 
 #GOPATH bin
 export PATH=$PATH:$GOPATH/bin
 
