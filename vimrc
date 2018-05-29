@@ -2,11 +2,18 @@
 " General
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let mapleader = " "
+" 高亮显示当前行/列
+set cursorline
+set cursorcolumn
+" 高亮显示搜索结果
+set hlsearch
 set number
 syntax on
 set enc=utf-8
 set history=1000 " How many lines of history to remember
 set relativenumber
+" 让配置变更立即生效
+autocmd BufWritePost $MYVIMRC source $MYVIMRC
 
 " When editing a file, always jump to the last known cursor position.
 " Don't do it for commit messages, when the position is invalid, or when
