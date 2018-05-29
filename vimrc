@@ -42,6 +42,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'Yggdroot/indentLine'
+Plug 'fatih/vim-go'
 " Plug 'python-mode/python-mode'
 " Plug 'lervag/vimtex'
 
