@@ -73,3 +73,8 @@ let g:airline_solarized_bg='simple'
 " let g:pymode_lint_on_fly = 0
 " let g:pymode_lint_checkers = ['pyflakes', 'pep8']
 " let g:pymode_syntax_indent_errors = g:pymode_syntax_all
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" indentLine
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:indentLine_char = '┆'
