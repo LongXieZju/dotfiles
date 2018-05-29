@@ -84,4 +84,5 @@ let g:airline_solarized_bg='simple'
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " indentLine
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:indentLine_enabled = 1
 let g:indentLine_char = '┆'
